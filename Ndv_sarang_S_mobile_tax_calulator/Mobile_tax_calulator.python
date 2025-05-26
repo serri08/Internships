@@ -1,0 +1,13 @@
+#Mobile tax caluclator
+Mobile_price = float(input("enter the mobile price"))
+Gst = float(input("enter the gst"))
+Discount = float (input("enter the discount"))
+Additional_discount =  (input("enter the addition discount"))
+
+Final_price = Mobile_price + Gst - Discount - Additional_discount
+
+print("enter the Mobile price is.....",Mobile_price)
+print("enter the Gst.....",Gst)
+print("enter the disc.....",Discount)
+print("enter the additional disc....",Additional_discount)
+print("enter the final price is......",Final_price)
